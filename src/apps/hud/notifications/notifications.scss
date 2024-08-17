@@ -1,0 +1,176 @@
+$red: #dd3131;
+$green: #43ef01;
+$blue: #3690bd;
+$yellow: #ffd149;
+
+.color-blue {
+	color: $blue;
+	font-weight: 700;
+}
+.color-green {
+	color: $green;
+	font-weight: 700;
+}
+.color-red {
+	color: $red;
+	font-weight: 700;
+}
+.color-yellow {
+	color: $yellow;
+	font-weight: 700;
+}
+.color-white {
+	color: white;
+}
+
+.notifications-container-inui {
+	position: absolute;
+	left: 40%;
+	top: -64.5%;
+	height: calc(100% - 23%);
+	overflow: hidden;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	// z-index: 1;
+}
+
+.notifications-container {
+	position: absolute;
+	left: 1.5%;
+	top: 1.5%;
+	height: calc(100% - 23%);
+	overflow: hidden;
+	width: 14.1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	// z-index: 1;
+
+	.notification-enter {
+		opacity: 0;
+
+		&.notification-enter-active {
+			opacity: 1;
+			transition: opacity 300ms ease-in;
+		}
+	}
+
+	.notification-exit {
+		opacity: 1;
+
+		&.notification-exit-active {
+			opacity: 0.01;
+			transition: opacity 300ms ease-out;
+		}
+	}
+}
+
+.dark {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+}
+
+.light {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+}
+
+.notification {
+	margin-top: 1vh;
+	// font-family: "Circular", Arial, Helvetica, sans-serif;
+	color: white;
+	padding: 7.5px;
+	border-radius: 15px;
+
+	@keyframes example {
+		from {
+			width: 100%;
+		}
+		to {
+			width: 0%;
+		}
+	}
+
+	.notification-header {
+		position: relative;
+		top: -7.4px;
+		left: -7.3px;
+
+		height: 70px;
+		width: calc(100% + 15px);
+
+		.banner {
+			opacity: 0.7;
+			height: 70px;
+			width: 100%;
+		}
+	}
+
+	.time-bar {
+		position: relative;
+		top: 7.5px;
+		left: -7.5px;
+
+		background-color: #43ef01;
+		box-shadow: 0 0 10px #43ef01;
+
+		height: 2px;
+		width: 0%;
+		animation-name: example;
+		animation-duration: 4s;
+	}
+
+	.content {
+		padding: 0.8vh;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: -2px;
+
+		.scl {
+			position: absolute;
+			left: -14.35px;
+		}
+
+		.icon {
+			height: 32.5px;
+			width: 32.5px;
+			border-radius: 50px;
+			margin-right: 10px;
+			background-color: rgba(255, 255, 255, 0.05);
+
+			opacity: 1;
+
+			.svg {
+				margin: -7.5px;
+			}
+		}
+
+		.title {
+			font-family: "Gilroy-Bold";
+			color: #43ef01;
+			text-shadow: 0 0px 7.5px #43ef01;
+			text-transform: uppercase;
+			font-size: 14px;
+		}
+
+		.msg {
+			font-family: "Gilroy-Medium";
+			color: #fff;
+			font-size: 12px;
+			margin: 0;
+		}
+	}
+
+	h2 {
+		margin: 0;
+		font-size: 1.3vh;
+		font-weight: normal;
+	}
+
+	p {
+		margin: 0;
+		font-size: 1.3vh;
+		font-weight: normal;
+	}
+}

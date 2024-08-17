@@ -1,0 +1,137 @@
+#interaction {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100%);
+	width: calc(100%);
+	font-family: "Oswald";
+
+	background: linear-gradient(0deg, rgba(19, 26, 44, 0.63), rgba(19, 26, 44, 0.63)),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+
+	.title {
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #fff;
+		margin-bottom: 5px;
+	}
+
+	.description {
+		font-weight: 300;
+		font-size: 20px;
+		width: 300px;
+		text-align: center;
+		color: rgba(255, 255, 255, 0.7);
+
+		margin-bottom: 30px;
+	}
+
+	.list {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 30px;
+
+		.element {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 5px;
+
+			font-size: 17px;
+			font-weight: 400;
+			height: 70px;
+			width: 300px;
+
+			color: #fff;
+			background: rgba(255, 255, 255, 0.2);
+			border-radius: 7px;
+
+			&:hover {
+				transition-duration: 800ms;
+				cursor: pointer;
+				opacity: 0.7;
+			}
+		}
+	}
+
+	.input {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 30px;
+
+		height: 85px;
+		width: 300px;
+		background: rgba(0, 0, 0, 0.36);
+		border-radius: 7px;
+
+		textarea {
+			text-align: center;
+			font-family: "Oswald";
+			width: calc(100% - 15px);
+			color: #fff;
+			background-color: transparent;
+			border: none;
+			resize: none;
+			outline: none;
+			height: 25px;
+			padding: 7.5px;
+
+			&::-webkit-scrollbar {
+				width: 0;
+			}
+		}
+	}
+
+	.buttons {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 300px;
+		text-transform: uppercase;
+
+		.interact {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			font-size: 17.5px;
+			font-weight: 400;
+			height: 60px;
+			width: 130px;
+
+			color: #000;
+			background: #ffde2a;
+			border-radius: 7px;
+
+			&:hover {
+				transition-duration: 800ms;
+				cursor: pointer;
+				opacity: 0.7;
+			}
+		}
+
+		.quit {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			font-size: 17px;
+			font-weight: 400;
+			height: 60px;
+			width: 130px;
+
+			color: #fff;
+			background: rgba(217, 217, 217, 0.2);
+			border-radius: 7px;
+
+			&:hover {
+				transition-duration: 800ms;
+				cursor: pointer;
+				opacity: 0.7;
+			}
+		}
+	}
+}

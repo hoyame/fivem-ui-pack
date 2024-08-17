@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+// body  {
+// 	margin-right: 0;
+// 	background-color:  #2C2E52;
+// 	background-image: url('icons/background.png');
+// 	background-size: cover;
+// 	background-attachment: fixed;
+// 	display: block;
+// 	overflow-y: hidden;
+// 	font-family: 'Roboto', sans-serif, Arial;
+// 	color: #fff;
+// 	user-select: none;
+// }
+
+#jobs {
+	height: 100%;
+	width: 100%;
+	z-index: 99;
+	font-family: "Oswald", sans-serif, Arial;
+	color: #fff;
+	user-select: none;
+	background-image: url("icons/background.png");
+	font-weight: 300;
+	display: flex;
+	flex-direction: row;
+
+	body {
+		display: flex;
+		flex-direction: row;
+	}
+	#menuToggle {
+		display: none;
+	}
+	.left {
+		position: static;
+		flex: 1;
+		transform: none;
+		background: none;
+		box-shadow: none !important;
+	}
+
+	.right {
+		position: relative;
+		height: 100vh;
+		flex: 2;
+		/*background: blue;*/
+	}
+
+	/* Code menu déroulant */
+	.menu {
+		margin: 75px 0;
+		padding: 0 15px;
+		width: calc(100% - 40px);
+		height: calc(100vh - 50px);
+		display: flex;
+		z-index: 1;
+		margin-top: 10px;
+		padding-top: 5px;
+		flex-direction: column;
+		overflow-y: scroll;
+	}
+	.menu::-webkit-scrollbar {
+		width: 3px;
+	}
+	.menu::-webkit-scrollbar-track {
+		background: #fff5;
+		border-radius: 5px;
+	}
+	.menu::-webkit-scrollbar-thumb {
+		background: #ffde2a;
+		border-radius: 5px;
+	}
+	.menu .item {
+		margin: 2px 0;
+		position: relative;
+		width: 100%;
+		background: #fff1;
+		height: 90px;
+		border-radius: 4px;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		flex-direction: row;
+	}
+	.menu .item.active,
+	.menu .item:hover {
+		background: #fff4;
+	}
+	.menu .item.active:after,
+	.menu .item:hover:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		right: -10px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 10px 0 10px 10px;
+		border-color: transparent transparent transparent #fff4;
+		border-radius: 2px;
+		transform: translateY(-50%);
+	}
+	.menu .item .icon {
+		margin-top: 7.5px;
+		padding: 17px 20px;
+	}
+	.menu .item .icon img {
+		width: 35px;
+	}
+	.menu .item .infos {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.menu .item .infos p {
+		margin: 0;
+	}
+	.menu .titreInfo {
+		font-size: 18px;
+	}
+	.menu .subInfo {
+		font-size: 14px;
+	}
+
+	/*couleurs des salaires*/
+	.menu span.h {
+		color: #75b354;
+	}
+	.menu span.m {
+		color: #ffde2a;
+	}
+	.menu span.f {
+		color: #f2594e;
+	}
+
+	.right .display {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: row;
+		transform: translateY(-50%);
+	}
+	.right .display > * {
+		flex: 1;
+		margin: auto 80px;
+	}
+
+	.right .display .pub {
+		margin-right: 0;
+		margin-bottom: 100px;
+		max-width: 400px;
+		padding: 50px 70px 50px 55px;
+		border: 2px solid #7ca34f;
+		border-right: none;
+		text-transform: uppercase;
+
+		background: linear-gradient(50deg, #7ca34f00, #7ca34f00, #7ca34f);
+	}
+	.right .display .pub .titrePub {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.right .display .pub .titrePub img {
+		padding: 20px 30px 20px 5px;
+		width: 40px;
+	}
+	.right .display .pub .titrePub h2 {
+		font-size: 25px;
+		font-weight: 200;
+	}
+
+	.right .display .pub .descPub {
+		font-size: 19px;
+	}
+
+	.tabInfo .jobName {
+		font-size: 45px;
+		font-weight: 300;
+	}
+	.tabInfo .jobDesc {
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.right .display .tabInfo hr {
+		margin: 20px 0 30px;
+		background: #fff5;
+		height: 3px;
+		border: none;
+		border-radius: 5px;
+	}
+	.image-prisa {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		min-height: 275px;
+		height: 50%;
+		max-height: 3250px;
+		z-index: 1;
+	}
+
+	.bottom {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.bottom p {
+		margin: 0;
+		padding-left: 15px;
+		font-size: 13px;
+		position: relative;
+	}
+	.bottom p:before {
+		content: "";
+		position: absolute;
+		top: 8px;
+		left: 0;
+		width: 7px;
+		height: 7px;
+		background: #ffde2a;
+	}
+	.bottom .btnJob {
+		padding: 7.5px 17px;
+		color: #262106;
+		font-size: 12px;
+		text-transform: uppercase;
+		border-radius: 50px;
+		background: #ffde2a;
+		cursor: pointer;
+		transition: 0.2s;
+	}
+	.bottom .btnJob:hover {
+		background: #c8ae20;
+		color: #000;
+	}
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+#concessionnaire {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 80px 150px 50px;
+	background: url('img/background.png');
+	background-size:  cover;
+	height: 100vh;
+	overflow-y: hidden;
+
+	color: white;
+	font-family: 'Oswald', Arial, sans-serif;
+
+	box-sizing: border-box;
+	user-select: none;
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .voiture {
+    height: 360px;
+    margin-bottom: 15px;
+  }
+
+  /* statistiques voiture */
+  header {
+    margin-bottom: 0px;
+    width: 100%;
+
+    	.header {
+        height: 50px;
+        margin-bottom: 50px;
+        p {
+          font-family: "Oswald";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 35px;
+          color: #ffffff;
+        }
+
+        .solde {
+          display: flex;
+          flex-direction: column;
+          margin-right: 30px;
+
+          span {
+            font-family: "Oswald";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.4);
+            margin-bottom: -5px;
+          }
+
+          p {
+            font-size: 25px;
+          }
+        }
+
+        .button {
+          border: 2px solid rgba(255, 255, 255, 0.705);
+          padding: 17.5px 40px;
+          color: #fff;
+          border-radius: 10px;
+          font-family: "Oswald";
+          transition-duration: 300ms;
+
+          margin: 0 10px;
+
+          &:hover {
+            background-color: #fff;
+            color: #000;
+            cursor: pointer;
+          }
+          // background: #FFFFFF;
+        }
+      }
+  }
+  .infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;	
+  }
+  .nomVoiture {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 48px;
+  }
+  .stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+  }
+  .stats li {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  .stats .prix {
+    padding: 0 15px;
+    height: 65px;
+    border: 2px solid rgba(255, 255, 255, 0.17);
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 30px;
+    color: #92FF5F;
+
+    h2 {
+      margin-top: 5px;
+      margin-bottom: 7px;
+    }
+  }
+  .stats h2 {	
+    max-width: 150px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .stats p {	
+    margin: 0;
+    margin-top: -15px;
+  }
+
+  /* boutons stats */
+  .options {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 53px;
+  }
+  .options .btn {
+    margin: 0;
+    padding:  10px 40px;
+    background: #FFFFFFDD;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 60px;
+
+    color: #3D4359;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: .2s;
+  }
+  .options .btn:hover {
+    background: #FFF;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.37);
+  }
+  .options .essai {
+    margin: 0;
+    padding: 10px 40px;
+    border: 2px solid rgba(255, 255, 255, 0.23);
+    border-radius: 34px;
+
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: .2s;
+  }
+  .options .essai:hover {
+    color: #3D4359;
+    background: #FFF;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  }
+
+  /* liste voitures */
+  .menu {
+    padding-bottom: 15px;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 290px;
+    gap: 10px;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .menu::-webkit-scrollbar {
+    height: 4px;
+  }
+  .menu::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 5px;
+  }
+  .menu::-webkit-scrollbar-thumb {
+    background: #FFF000;
+    border-radius: 5px;
+  }
+  .menu .voiture {
+    margin: 0;
+    padding: 10px;
+    min-width: 150px;
+    height: 150px;
+
+    border: 2px solid  rgba(255, 255, 255, 0.21);
+    border-radius: 5px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: .15s;
+  }
+  .menu .voiture.active, .menu .voiture:hover {
+    background: radial-gradient(48.08% 31.25% at 50% 41.56%, rgba(255, 232, 22, 0.26) 0%, rgba(255, 232, 22, 0) 100%);
+    border: 2px solid #FFE816;
+  }
+  .menu .voiture img {
+    max-width: 100%;
+    width:  150px;
+  }
+  .menu .voiture p {
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .stat {
+    h2 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .backButton {
+    &:hover {
+      transition-duration: 300ms;
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+}

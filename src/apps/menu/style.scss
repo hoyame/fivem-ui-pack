@@ -1,0 +1,259 @@
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-align {
+	align-items: center;
+	justify-content: center;
+}
+
+#menu {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+
+	z-index: 99;
+	padding: 100px 135px;
+	background: linear-gradient(121.34deg, rgba(190, 201, 255, 0.22) -3.02%, rgba(0, 0, 0, 0) 14.45%),
+		linear-gradient(292.42deg, rgba(139, 255, 172, 0.36) 0.92%, rgba(0, 0, 0, 0) 80.86%),
+		linear-gradient(109.42deg, rgba(37, 46, 121, 0.41) 4.24%, rgba(0, 0, 0, 0) 100%),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.94)),
+		url("https://cdn.discordapp.com/attachments/1009466792135110697/1012439547629535373/unknown.png");
+
+	.content {
+		display: flex;
+
+		height: calc(100% - 100px);
+		width: calc(100% - 270px);
+
+		.account-info {
+			height: 210px;
+			width: 220px;
+
+			background: linear-gradient(126.66deg, #432f63 -6.61%, rgba(67, 47, 100, 0) 60.21%);
+			border-radius: 10px;
+			border: 2px solid rgba(251, 57, 173, 0.37);
+		}
+
+		.daily-tasks {
+			top: 300px;
+			height: 500px;
+			width: 220px;
+			border-radius: 10px;
+			background: linear-gradient(131.52deg, rgba(250, 170, 56, 0.77) -51.13%, rgba(248, 173, 64, 0) 58%);
+			border: 2px solid rgba(250, 170, 56, 0.77);
+
+			p {
+				margin: 35px 0;
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 30px;
+				line-height: 44px;
+				text-align: center;
+				color: #ffffff;
+			}
+		}
+
+		.profile {
+			display: flex;
+			height: 100%;
+			width: 650px;
+			margin-right: 35px;
+			align-items: center;
+			padding-left: 50px;
+			border-radius: 10px;
+			background: linear-gradient(160deg, rgba(111, 193, 26, 0.69) -40.82%, rgba(111, 193, 26, 0) 44.39%);
+			p {
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 300;
+				font-size: 40px;
+				line-height: 74px;
+				/* identical to box height */
+
+				color: #ffffff;
+			}
+		}
+
+		.battle-pass {
+			display: flex;
+			align-items: flex-end;
+			height: calc(100%);
+			width: 165px;
+
+			margin-right: 35px;
+
+			color: #fff;
+
+			&:hover {
+				filter: blur(0.65px);
+			}
+		}
+
+		.win-money {
+			align-items: center;
+			height: 100%;
+			width: 640px;
+
+			border-radius: 10px;
+
+			&:hover {
+				transition-duration: 300ms;
+				transform: scale(1.02); /* Équivalent à scaleX(0.7) scaleY(0.7) */
+
+				img {
+					margin-top: 5px;
+				}
+			}
+		}
+
+		.store {
+			display: flex;
+			align-items: center;
+			height: 160px;
+			width: 280px;
+			border: 2px solid #30c48d;
+			padding-left: 30px;
+			margin-bottom: 25px;
+			background: linear-gradient(90deg, rgba(53, 213, 153, 0.18) 0%, rgba(52, 213, 152, 0) 100%);
+			border-radius: 10px;
+
+			p {
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 25px;
+				line-height: 37px;
+
+				color: #ffffff;
+			}
+		}
+
+		.realisations {
+			display: flex;
+			flex-direction: column;
+			height: 200px;
+			width: 270px;
+			padding: 20px;
+
+			border: 2px solid #ffce13;
+			background: linear-gradient(141.14deg, rgba(248, 201, 19, 0.28) -49.33%, rgba(255, 206, 19, 0) 60.16%);
+			border-radius: 10px;
+
+			p {
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 20px;
+				line-height: 129.2%;
+
+				color: #ffffff;
+			}
+		}
+
+		.organisation {
+			height: 200px;
+			width: 300px;
+			margin-bottom: 25px;
+
+			border: 2px solid #278cb8;
+			background: radial-gradient(49.7% 109.86% at 104.46% 105.53%, rgba(66, 96, 235, 0.29) 0%, rgba(66, 96, 235, 0) 100%)
+					/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+				radial-gradient(81.19% 81.19% at 0% 55.53%, rgba(52, 177, 228, 0.31) 0%, rgba(52, 177, 228, 0) 100%)
+					/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+			border-radius: 10px;
+
+			p {
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 26.4451px;
+
+				color: #ffffff;
+			}
+		}
+
+		.clubs {
+			display: flex;
+			height: 200px;
+			width: 300px;
+
+			background: linear-gradient(126.66deg, #432f63 -6.61%, rgba(67, 47, 100, 0) 60.21%);
+			border-radius: 10px;
+			border: 2px solid #76458d;
+		}
+
+		.travail {
+			display: flex;
+			height: 200px;
+			width: 300px;
+			margin-bottom: 25px;
+
+			border: 2px solid #5dbc59;
+			border-radius: 10px;
+			background: linear-gradient(131.75deg, rgba(98, 196, 92, 0.44) -5.88%, rgba(98, 196, 92, 0) 49.91%);
+		}
+
+		.family {
+			display: flex;
+			flex-direction: column;
+			height: 200px;
+			width: 300px;
+
+			border-radius: 10px;
+			border: 2px solid #cf5680;
+			background: linear-gradient(131.12deg, rgba(205, 87, 128, 0.71) -42.21%, rgba(184, 79, 116, 0) 57.67%);
+		}
+
+		.entreprise {
+			display: flex;
+			height: 200px;
+			width: 320px;
+			margin-bottom: 25px;
+
+			border-radius: 10px;
+			border: 2px solid #faaa36;
+			background: linear-gradient(131.52deg, rgba(250, 170, 56, 0.77) -51.13%, rgba(248, 173, 64, 0) 58%);
+		}
+
+		.inventaire {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 275px;
+			width: 320px;
+
+			border-radius: 10px;
+			border: 2px solid #fff;
+			background: linear-gradient(124.07deg, #d9d9d9 -113.5%, rgba(255, 255, 255, 0) 54.04%);
+		}
+
+		.contact-staff {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 53px;
+			width: 478px;
+
+			margin-right: 35px;
+			border-radius: 10px;
+			background: rgba(255, 255, 255, 0.05);
+		}
+	}
+}
+
+.eeee {
+	&:hover {
+		transition-duration: 800ms;
+		transform: scale(1.04); /* Équivalent à scaleX(0.7) scaleY(0.7) */
+	}
+}

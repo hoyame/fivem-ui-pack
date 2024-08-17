@@ -1,0 +1,83 @@
+@keyframes pop {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.box {
+	font-family: "Gilroy";
+	border-radius: 15px;
+	padding: 20px;
+	margin-right: 25px;
+	// height: 305px;
+
+	animation-name: pop;
+	animation-duration: 2s;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+
+	p {
+	}
+}
+
+#staff {
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+	font-family: "Gilroy";
+
+	.count {
+		height: 65px;
+		width: 260px;
+		margin-bottom: 25px;
+	}
+
+	// .box::-webkit-scrollbar {
+	//     width: 0;
+	// }
+
+	.players {
+		height: 270px;
+		overflow-y: scroll;
+	}
+
+	.players::-webkit-scrollbar {
+		width: 0;
+	}
+
+	.player-element {
+		display: flex;
+		justify-content: space-between;
+		color: #fff;
+		height: 25px;
+
+		svg {
+			fill: rgba(255, 255, 255, 0.5);
+			transition-duration: 300ms;
+			margin: 0 4px;
+
+			&:hover {
+				fill: rgba(255, 255, 255, 0.85);
+				cursor: pointer;
+			}
+		}
+	}
+
+	.actions {
+		svg {
+			fill: rgba(255, 255, 255, 0.5);
+			transition-duration: 300ms;
+			margin: 0 4px;
+
+			&:hover {
+				fill: rgba(255, 255, 255, 0.85);
+				cursor: pointer;
+			}
+		}
+	}
+
+	// background-color: red;
+}

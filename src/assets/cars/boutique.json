@@ -1,0 +1,345 @@
+{
+    "cases": {
+        "ruby": {
+            "price": 5000,
+            "content": [
+                { "description": "Fusil Bullpup", "tier": 4, "img": "weapon_bullpupshotgun", "args": {
+                    "type": "weapon", "reward": "weapon_bullpupshotgun"
+                }},
+                { "description": "Sniper Lourd", "tier": 4, "img": "weapon_heavysniper_mk2", "args": {
+                    "type": "weapon", "reward": "weapon_heavysniper_mk2"
+                }},
+                { "description": "Fusil Special", "tier": 4, "img": "weapon_specialcarbine", "args": {
+                    "type": "weapon", "reward": "weapon_specialcarbine"
+                }},
+                { "description": "Mitrailleuse", "tier": 4, "img": "weapon_combatmg", "args": {
+                    "type": "weapon", "reward": "weapon_combatmg"
+                }},
+                { "description": "2 500 Coins", "tier": 3, "img": "BTC", "args": {
+                    "type": "coins", "reward": "2500"
+                }},
+                { "description": "1 500 Coins", "tier": 3, "img": "BTC", "args": {
+                    "type": "coins", "reward": "1500"
+                }} ,
+                { "description": "VIP 1 Mois", "tier": 3, "img": "VIP", "args": {
+                    "type": "vip", "reward": "1"           
+                }},
+                { "description": "2 000 000 Cash", "tier": 2, "img": "CASH", "args": {
+                    "type": "cash", "reward": "2000000"
+                }},
+                { "description": "Lamborghini Huracan", "tier": 2, "img": "18performante", "args": {
+                    "type": "vehicule", "reward": "18performante"
+                }},
+                { "description": "Buggati Divo", "tier": 2, "img": "divo", "args": {
+                    "type": "vehicule", "reward": "divo"
+                }},
+                { "description": "Lamborghini Aventador", "tier": 1, "img": "aventadors", "args": {
+                    "type": "vehicule", "reward": "aventadors"
+                }},
+                { "description": "Cargobob", "tier": 3, "img": "cargobob2", "args": {
+                    "type": "vehicule", "reward": "cargobob2"
+                }},
+                { "description": "Volito", "tier": 3, "img": "SuperVolito2", "args": {
+                    "type": "vehicule", "reward": "SuperVolito2"
+                }},
+                { "description": "Ferrari 812", "tier": 1, "img": "ferrari812", "args": {
+                    "type": "vehicule", "reward": "ferrari812"
+                }},
+                { "description": "Ferrari Monza", "tier": 1, "img": "monza", "args": {
+                    "type": "vehicule", "reward": "monza"
+                }},
+                { "description": "McLaren Senna", "tier": 2, "img": "senna", "args": {
+                    "type": "vehicule", "reward": "senna"
+                }},
+                { "description": "Lamborghini Urus", "tier": 1, "img": "urus", "args": {
+                    "type": "vehicule", "reward": "urus"
+                }},
+                { "description": "Rolls Royce Fantome", "tier": 1, "img": "ayxz", "args": {
+                    "type": "vehicule", "reward": "ayxz"
+                }},
+                { "description": "Koenigsegg Gemera", "tier": 1, "img": "gemera", "args": {
+                    "type": "vehicule", "reward": "gemera"
+                }},
+                { "description": "Bentley Bacalar", "tier": 2, "img": "rmodbacalar", "args": {
+                    "type": "vehicule", "reward": "rmodbacalar"
+                }}
+            ]
+        },
+
+        "diamand": {
+            "price": 2500,
+            "content": [
+                { "description": "Ak 74u", "tier": 4, "img": "weapon_compactrifle", "args": {
+                    "type": "weapon", "reward": "weapon_compactrifle"
+                }},
+                { "description": "Thompson", "tier": 4, "img": "weapon_gusenberg", "args": {
+                    "type": "weapon", "reward": "weapon_gusenberg"
+                }},
+                { "description": "Fusil Bullpup", "tier": 4, "img": "weapon_bullpuprifle", "args": {
+                    "type": "weapon", "reward": "weapon_bullpuprifle"
+                }},
+                { "description": "1 300 Coins", "tier": 3, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "2 000 Coins", "tier": 3, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "3 000 000 Cash", "tier": 4, "img": "CASH", "args": {
+                    "type": "cash", "reward": "CASH"
+                }},
+                { "description": "1 000 000 Cash", "tier": 2, "img": "CASH", "args": {
+                    "type": "cash", "reward": "CASH"
+                }},
+                { "description": "Bmw M4", "tier": 2, "img": "bmwm4", "args": {
+                    "type": "vehicule", "reward": "bmwm4"
+                }},
+                { "description": "Lamborghini terzo", "tier": 3, "img": "terzo", "args": {
+                    "type": "vehicule", "reward": "terzo"
+                }},
+                { "description": "Mercedes classe S", "tier": 1, "img": "s65f", "args": {
+                    "type": "vehicule", "reward": "s65f"
+                }},
+                { "description": "Aston Martin DB11", "tier": 1, "img": "rmodmartin", "args": {
+                    "type": "vehicule", "reward": "rmodmartin"
+                }},
+                { "description": "Mercedes C63Amg", "tier": 1, "img": "c63", "args": {
+                    "type": "vehicule", "reward": "c63"
+                }},
+                { "description": "Porsche Cayenne", "tier": 2, "img": "cayenne", "args": {
+                    "type": "vehicule", "reward": "cayenne"
+                }},
+                { "description": "Porsche Macan", "tier": 2, "img": "pm19", "args": {
+                    "type": "vehicule", "reward": "pm19"
+                }},
+                { "description": "Audi RSQ8", "tier": 1, "img": "q8prior", "args": {
+                    "type": "vehicule", "reward": "q8prior"
+                }},
+                { "description": "Jeep", "tier": 3, "img": "jeepg", "args": {
+                    "type": "vehicule", "reward": "jeepg"
+                }},
+                { "description": "Ferrari Evo", "tier": 3, "img": "fxxkevo", "args": {
+                    "type": "vehicule", "reward": "fxxkevo"
+                }},
+                { "description": "Koenigsegg Gemera", "tier": 2, "img": "jesko2020x", "args": {
+                    "type": "vehicule", "reward": "jesko2020x"
+                }},
+                { "description": "Mercedes Amg Gtr", "tier": 1, "img": "amggtsmansory", "args": {
+                    "type": "vehicule", "reward": "amggtsmansory"
+                }},
+                { "description": "Mercedes C63s Brabus", "tier": 1, "img": "19S63", "args": {
+                    "type": "vehicule", "reward": "19S63"
+                }}
+            ]
+        },
+
+        "gold": {
+            "price": 1000,
+            "content": [
+                { "description": "Fusil a Pompe", "tier": 4, "img": "weapon_sawnoffshotgun", "args": {
+                    "type": "weapon", "reward": "weapon_sawnoffshotgun"
+                }},
+                { "description": "Mitraillette Mk2", "tier": 4, "img": "weapon_smg_mk2", "args": {
+                    "type": "weapon", "reward": "weapon_smg_mk2"
+                }},
+                { "description": "Canon Scié", "tier": 4, "img": "weapon_dbshotgun", "args": {
+                    "type": "weapon", "reward": "weapon_dbshotgun"
+                }},
+                { "description": "1 000 Coins", "tier": 3, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "500 Coins", "tier": 2, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "2 000 000 Cash", "tier": 3, "img": "CASH", "args": {
+                    "type": "cash", "reward": "CASH"
+                }},
+                { "description": "500 000 Cash", "tier": 3, "img": "CASH", "args": {
+                    "type": "cash", "reward": "CASH"
+                }},
+                { "description": "Bmw X5", "tier": 1, "img": "20x5m", "args": {
+                    "type": "vehicule", "reward": "20x5m"
+                }},
+                { "description": "450 YZF", "tier": 2, "img": "yz450f", "args": {
+                    "type": "vehicule", "reward": "yz450f"
+                }},
+                { "description": "Mercedes Sl65", "tier": 1, "img": "sl65bs", "args": {
+                    "type": "vehicule", "reward": "sl65bs"
+                }},
+                { "description": "Porche 911", "tier": 3, "img": "topcar911", "args": {
+                    "type": "vehicule", "reward": "topcar911"
+                }},
+                { "description": "Bmw M5", "tier": 1, "img": "bmci", "args": {
+                    "type": "vehicule", "reward": "bmci"
+                }},
+                { "description": "Mercedes Classe G", "tier": 1, "img": "brabus700", "args": {
+                    "type": "vehicule", "reward": "brabus700"
+                }},
+                { "description": "lamborghini LP750", "tier": 3, "img": "lb750sv", "args": {
+                    "type": "vehicule", "reward": "lb750sv"
+                }},
+                { "description": "Audi Rs6 berline", "tier": 2, "img": "rs6c8", "args": {
+                    "type": "vehicule", "reward": "rs6c8"
+                }},
+                { "description": "Mercedes classe S", "tier": 1, "img": "s65f", "args": {
+                    "type": "vehicule", "reward": "s65f"
+                }},
+                { "description": "Ferrari 458", "tier": 2, "img": "458", "args": {
+                    "type": "vehicule", "reward": "458"
+                }},
+                { "description": "Ford GT", "tier": 1, "img": "gt17", "args": {
+                    "type": "vehicule", "reward": "gt17"
+                }},
+                { "description": "Porsche Panamera", "tier": 1, "img": "panamera17turbo", "args": {
+                    "type": "vehicule", "reward": "panamera17turbo"
+                }},
+                { "description": "Mercedes Gle", "tier": 1, "img": "gle450", "args": {
+                    "type": "vehicule", "reward": "gle450"
+                }}
+            ]
+        },
+
+        "silver": {
+            "price": 500,
+            "content": [
+                { "description": "Mitrallette D'assaut", "tier": 4, "img": "", "weapon_assaultsmg": {
+                    "type": "weapon", "reward": "weapon_assaultsmg "
+                }},
+                { "description": "Pistolet Vintage", "tier": 4, "img": "weapon_vintagepistol", "args": {
+                    "type": "weapon", "reward": "weapon_vintagepistol"
+                }},
+                { "description": "Mousquet", "tier": 4, "img": "weapon_musket", "args": {
+                    "type": "weapon", "reward": "weapon_musket"
+                }},
+                { "description": "1 000 Coins", "tier": 4, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "250 Coins", "tier": 2, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "250 000 Cash", "tier": 2, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "1 000 000 Cash", "tier": 3, "img": "BTC", "args": {
+                    "type": "coins", "reward": "BTC"
+                }},
+                { "description": "Lykan Hyper Sport", "tier": 2, "img": "lykan", "args": {
+                    "type": "vehicule", "reward": "lykan"
+                }},
+                { "description": "Mercedes 190E", "tier": 1, "img": "190e", "args": {
+                    "type": "vehicule", "reward": "190e"
+                }},
+                { "description": "Ktm 450 SMR", "tier": 1, "img": "2020excsm", "args": {
+                    "type": "vehicule", "reward": "2020excsm"
+                }},
+                { "description": "Velo a Moteur", "tier": 1, "img": "gomez", "args": {
+                    "type": "vehicule", "reward": "gomez"
+                }},
+                { "description": "Suzuki 450 Ltr", "tier": 2, "img": "ltrstar", "args": {
+                    "type": "vehicule", "reward": "ltrstar"
+                }},
+                { "description": "Mercedes Class A45 Break", "tier": 1, "img": "cla45sb2", "args": {
+                    "type": "vehicule", "reward": "cla45sb2"
+                }},
+                { "description": "Mistubishi Evo", "tier": 1, "img": "evovaris", "args": {
+                    "type": "vehicule", "reward": "evovaris"
+                }},
+                { "description": "Bmw i8", "tier": 1, "img": "i8", "args": {
+                    "type": "vehicule", "reward": "i8"
+                }},
+                { "description": "Bmw M3", "tier": 1, "img": "m3f801", "args": {
+                    "type": "vehicule", "reward": "m3f801"
+                }},
+                { "description": "Mercedes Gle63", "tier": 1, "img": "gle", "args": {
+                    "type": "vehicule", "reward": "gle"
+                }},
+                { "description": "Alfa Romeo Giulia", "tier": 2, "img": "giuliagtam", "args": {
+                    "type": "vehicule", "reward": "giuliagtam"   
+                }},
+                { "description": "Chevrolet ZL1", "tier": 2, "img": "exor", "args": {
+                    "type": "vehicule", "reward": "exor"
+                }},
+                { "description": "Porsche Macan 2018", "tier": 1, "img": "ursa", "args": {
+                    "type": "vehicule", "reward": "ursa"
+
+                }}
+            ]
+        },
+
+        "monthly": {
+            "price": 5000,
+            "content": [
+                { "description": "Issou", "tier": 1, "img": "https://cdn.discordapp.com/attachments/978756863350935654/978763600065875978/unknown.png", "args": {
+                    "type": "", "reward": ""
+                }},
+                { "description": "Issou", "tier": 1, "img": "https://cdn.discordapp.com/attachments/978756863350935654/978763600065875978/unknown.png", "args": {
+                    "type": "", "reward": ""
+                }},
+                { "description": "Issou", "tier": 1, "img": "https://cdn.discordapp.com/attachments/978756863350935654/978763600065875978/unknown.png", "args": {
+                    "type": "", "reward": ""
+                }},
+                { "description": "Issou", "tier": 1, "img": "https://cdn.discordapp.com/attachments/978756863350935654/978763600065875978/unknown.png", "args": {
+                    "type": "", "reward": ""
+                }},
+                { "description": "Issou", "tier": 1, "img": "https://cdn.discordapp.com/attachments/978756863350935654/978763600065875978/unknown.png", "args": {
+                    "type": "", "reward": ""
+                }},
+                { "description": "Issou", "tier": 1, "img": "https://cdn.discordapp.com/attachments/978756863350935654/978763600065875978/unknown.png", "args": {
+                    "type": "", "reward": ""
+                }}
+            ]
+        }
+    },
+
+    "weapons": [
+        {"componentData": null, "img": "katana", "label": "Katana", "name": "WEAPON_KATANA", "description": null, "price": 450},
+        {"componentData": null, "img": "revolver", "label": "Double Action Revolver", "name": "WEAPON_DOUBLEACTION", "description": null, "price": 2000},
+        {"componentData": null, "img": "nanyRevolver", "label": "Navy Revolver", "name": "WEAPON_NAVYREVOLVER", "description": null, "price": 2500},
+        {"componentData": null, "img": "cayo", "label": "Pistolet Cayo", "name": "WEAPON_GADGETPISTOL", "description": null, "price": 1500},
+        {"componentData": null, "img": "ak47", "label": "AK-47", "name": "WEAPON_ASSAULTRIFLE", "description": null, "price": 3500},
+        {"componentData": null, "img": "defense", "label": "Arme de Défense", "name": "WEAPON_COMBATPDW", "description": null, "price": 2500},
+        {"componentData": null, "img": "ceramic", "label": "Glock 17", "name": "WEAPON_GLOCK", "description": null, "price": 1000}
+    ],
+
+    "categories": [
+        ["mod_vehicles", "Voitures", "store"],
+        ["mod_boats", "Bateaux", "store"],
+        ["mod_plane", "Avions", "store"]
+    ],
+
+    "vehicles": [
+        ["tmaxDX", "T-Max", 1000, "mod_vehicles"],
+        ["serv_electricscooter", "Trotinette", 1000, "mod_vehicles"],
+        ["golf7r", "Golf 7R", 1500, "mod_vehicles"],
+        ["urus", "Urus", 2500, "mod_vehicles"],
+        ["x6m", "BMW X6M", 2500, "mod_vehicles"],
+        ["bmwm8", "BMW M8", 3500, "mod_vehicles"],
+        ["rs7r", "Audi RS7R", 3000, "mod_vehicles"],
+        ["rs6abtp", "Audi RS6 ABT", 3000, "mod_vehicles"],
+        ["rs615", "Audi RS6 2015", 3000, "mod_vehicles"],
+        ["gtr", "Nissan GTR", 3000, "mod_vehicles"],
+        ["rs318", "Audi RS3 2018", 1500, "mod_vehicles"],
+        ["rmodbugatti", "Bugatti", 4500, "mod_vehicles"],
+        ["911venom", "911 Venom", 2500, "mod_vehicles"],
+        ["rmodmustang", "Mustang", 2500, "mod_vehicles"],
+        ["rmodskyline34", "Nissan Skyline R34", 3500, "mod_vehicles"],
+        ["brabus800", "Brabus 800", 2700, "mod_vehicles"],
+        ["m4c", "BMW M4 CS", 2500, "mod_vehicles"],
+        ["m5f90", "BMW M5 F90", 3000, "mod_vehicles"],
+        ["exc530sm", "KTM EXC 530", 1500, "mod_vehicles"],
+        ["rmodgt63", "Mercedes AMG GT63S", 350, "mod_vehicles"],
+
+        ["GTAshark3", "Shark", 750, "mod_boats"],
+        ["submersible", "Submersible", 1250, "mod_boats"],
+        ["submersible2", "Submersible", 1500, "mod_boats"],
+        ["longfin", "Longfin", 2000, "mod_boats"],
+        ["sr650fly", "SR 650", 250, "mod_boats"],
+
+        ["microlight", "Micro Light", 750, "mod_plane"],
+        ["havok", "Havoc", 1000, "mod_plane"],
+        ["stunt", "Stunt", 1250, "mod_plane"],
+        ["buzzard2", "Buzzard", 1500, "mod_plane"],
+        ["supervolito2", "Super Volito", 2000, "mod_plane"],
+        ["swift2", "Swift", 2500, "mod_plane"],
+        ["luxor2", "Luxor", 3000, "mod_plane"]
+    ]
+}

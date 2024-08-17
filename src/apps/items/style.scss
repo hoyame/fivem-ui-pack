@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+#items {
+	display: flex;
+	flex-direction: column;
+	// justify-content: space-between;
+	// align-items: center;
+
+	padding: 80px 150px 50px;
+	background-size:  cover;
+  background: url('../cardealer/img/background.png');
+	height: 100vh;
+	overflow-y: hidden;
+
+	color: white;
+	font-family: 'Oswald', Arial, sans-serif;
+
+	box-sizing: border-box;
+	user-select: none;
+
+  .background-items {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    height: 600px;
+    opacity: 0.3;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .voiture {
+    height: 360px;
+    margin-bottom: 15px;
+  }
+
+  /* statistiques voiture */
+  header {
+    margin-bottom: 0px;
+    width: 100%;
+
+    	.header {
+        height: 50px;
+        margin-bottom: 50px;
+        p {
+          font-family: "Oswald";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 35px;
+          color: #ffffff;
+        }
+
+        .solde {
+          display: flex;
+          flex-direction: column;
+          margin-right: 30px;
+
+          span {
+            font-family: "Oswald";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.4);
+            margin-bottom: -5px;
+          }
+
+          p {
+            font-size: 25px;
+          }
+        }
+
+        .button {
+          border: 2px solid rgba(255, 255, 255, 0.705);
+          padding: 17.5px 40px;
+          color: #fff;
+          border-radius: 10px;
+          font-family: "Oswald";
+          transition-duration: 300ms;
+
+          margin: 0 10px;
+
+          &:hover {
+            background-color: #fff;
+            color: #000;
+            cursor: pointer;
+          }
+          // background: #FFFFFF;
+        }
+      }
+  }
+
+  .options-box {
+		position: absolute;
+		height: 285px;
+		width: 400px;
+		margin-top: -17.5px;
+		margin-left: 160px;
+		border-radius: 5px;
+
+		background-color: rgba(0, 0, 0, 0.9);
+
+		.cross {
+			fill: #fff;
+
+			&:hover {
+				opacity: 0.8;
+				cursor: pointer;
+			}
+		}
+
+		.button {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: calc(100% / 3);
+
+			svg {
+				fill: #fff;
+			}
+
+			&:hover {
+				transition-duration: 300ms;
+				cursor: pointer;
+				background-color: rgba(117, 117, 117, 0.158);
+			}
+		}
+	}
+  
+  .item {
+    display: inline-block;
+    margin-right: 10px;
+
+		.content {
+		}
+
+		svg {
+			stroke: #fff;
+			stroke-opacity: 0.2;
+		}
+
+		&:hover {
+			cursor: pointer;
+
+			svg {
+				transition-duration: 300ms;
+				stroke-opacity: 0.5;
+			}
+		}
+	}
+
+  .backButton {
+    &:hover {
+      transition-duration: 300ms;
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+}

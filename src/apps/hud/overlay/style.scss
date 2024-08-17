@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.dark-overlay {
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+}
+
+.light-overlay {
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.01));
+}
+
+#overlay {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+	color: #fff;
+	position: absolute;
+	top: 40.5px;
+	right: 30px;
+	width: 250px;
+	height: 100px;
+	pointer-events: none;
+	z-index: 1500;
+
+	// background-color: rgba(255, 11, 11, 1);
+
+	.name {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-bottom: 6px;
+		font-family: "Akrobat";
+		border-radius: 3.5px;
+
+		height: 37.5px;
+		width: 220px;
+
+		.infos {
+			display: flex;
+			flex-direction: row;
+			height: 20px;
+
+			.players {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				margin: 0 5px;
+
+				.icon {
+					margin-right: 6px;
+				}
+			}
+		}
+
+		.discord {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			padding-right: 5px;
+			font-size: 11px;
+			font-weight: 500;
+			font-family: "Montserrat", sans-serif;
+		}
+
+		.d {
+			height: 17px;
+			width: 2px;
+			background-color: #ffffff;
+		}
+
+		.icon {
+			height: 55px;
+		}
+	}
+
+	.cash {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		border-radius: 3.5px;
+
+		font-family: "Akrobat";
+		font-size: 20px;
+		margin-bottom: 6px;
+		font-weight: 300;
+
+		height: 32.5px;
+		width: 200px;
+	}
+
+	.bank {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		border-radius: 3.5px;
+
+		font-family: "Akrobat";
+		font-size: 16px;
+		margin-bottom: 6px;
+		// padding-right: 12.5px;
+
+		height: 30px;
+		width: 170px;
+	}
+}

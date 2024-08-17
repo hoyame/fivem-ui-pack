@@ -1,0 +1,540 @@
+{
+    "packs": {
+        "entreprise": 999999,
+        "mecano": 999999,
+        "orga": 999999
+    },
+
+    "weapons": [
+        {"componentData": null, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970580681326763/sig550.png", "label": "SIG 550", "name": "sig550", "description": null, "price": 2500},
+        {"componentData": null, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970561077166171/penis.png", "label": "Penis", "name": "penis", "description": null, "price": 500},
+        {"componentData": null, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970561970536478/maze.png", "label": "Batte rouillée", "name": "maze", "description": null, "price": 1000},
+        {"componentData": null, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970583143383150/scarsc.png", "label": "Petite Scar", "name": "scarsc", "description": null, "price": 2000},
+        {"componentData": null, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035972374329315401/m19.png", "label": "M19", "name": "m19", "description": null, "price": 1000}
+    ],
+
+    "categories": [
+        ["mod_vehicles", "Voitures", "store"]
+    ],
+
+    "vehicles": [
+        {
+          "name": "Toyota Supra Pandem",
+          "model": "suprapandem",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "250 km/h",
+            "fuel": "80L"
+          }
+        },
+        {
+          "name": "Nissan Skyline R34",
+          "model": "skyline34",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "220 km/h",
+            "fuel": "75L"
+          }
+        },
+        {
+          "name": "BMW M3 E34",
+          "model": "me34",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "250 km/h",
+            "fuel": "85L"
+          }
+        },
+        {
+          "name": "Lamborghini LP670-4 SV",
+          "model": "lp670",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "325 km/h",
+            "fuel": "100L"
+          }
+        },
+        {
+          "name": "Audi RS6 R",
+          "model": "rs6r",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "305 km/h",
+            "fuel": "90L"
+          }
+        },
+        {
+          "name": "Chevrolet Corvette SVR Sport",
+          "model": "svrsport",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "300 km/h",
+            "fuel": "80L"
+          }
+        },
+        {
+          "name": "Audi R8 Widebody",
+          "model": "r8widebody",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "330 km/h",
+            "fuel": "95L"
+          }
+        },
+        {
+          "name": "Porsche 918 Spyder",
+          "model": "porsche918",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "315 km/h",
+            "fuel": "85L"
+          }
+        },
+        {
+          "name": "Volkswagen Golf Mk7",
+          "model": "golfmk7",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "250 km/h",
+            "fuel": "60L"
+          }
+        },
+        {
+          "name": "Mercedes-Benz C63 AMG",
+          "model": "c63amg",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "300 km/h",
+            "fuel": "80L"
+          }
+        },
+        {
+          "name": "BMW M8 Competition",
+          "model": "m8competition",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "305 km/h",
+            "fuel": "90L"
+          }
+        },
+        {
+          "name": "Porsche Panamera",
+          "model": "panamera",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "300 km/h",
+            "fuel": "80L"
+          }
+        },
+        {
+          "name": "Porsche Taycan",
+          "model": "taycan",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "260 km/h",
+            "fuel": "0L"
+          }
+        },
+        {
+          "name": "Ram 1500 TRX",
+          "model": "ramtrx",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "200 km/h",
+            "fuel": "100L"
+          }
+        },
+        {
+          "name": "BMW M5 CS",
+          "model": "m5cs",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "305 km/h",
+            "fuel": "90L"
+          }
+        },
+        {
+          "name": "Audi e-tron GT",
+          "model": "etrongt",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "250 km/h",
+            "fuel": "0L"
+          }
+        },
+        {
+          "name": "Audi RS7 R",
+          "model": "rs7r",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "305 km/h",
+            "fuel": "90L"
+          }
+        },
+        {
+          "name": "Porsche 911 GT RS",
+          "model": "gtrsr911",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "320 km/h",
+            "fuel": "85L"
+          }
+        },
+        {
+          "name": "Mercedes-Benz G65 AMG",
+          "model": "g65amg",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "200 km/h",
+            "fuel": "100L"
+          }
+        },
+        {
+          "name": "Nissan GT-R50",
+          "model": "gtr50",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "320 km/h",
+            "fuel": "85L"
+          }
+        },
+        {
+          "name": "Koenigsegg Jesko",
+          "model": "jesko",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "320 km/h",
+            "fuel": "100L"
+          }
+        },
+        {
+          "name": "Chrion 300",
+          "model": "chrion300",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "250 km/h",
+            "fuel": "80L"
+          }
+        },
+        {
+          "name": "Rolls-Royce Bacalar",
+          "model": "bacalar",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "250 km/h",
+            "fuel": "100L"
+          }
+        },
+        {
+          "name": "Ferrari LaFerrari",
+          "model": "laferrari",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "350 km/h",
+            "fuel": "100L"
+          }
+        },
+        {
+          "name": "Mercedes-AMG ONE",
+          "model": "amgone",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "350 km/h",
+            "fuel": "100L"
+          }
+        },
+        {
+          "name": "BMW R1290R",
+          "model": "r1290r",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "200 km/h",
+            "fuel": "20L"
+          }
+        },
+        {
+          "name": "Yamaha Tracer",
+          "model": "tracer",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "180 km/h",
+            "fuel": "15L"
+          }
+        },
+        {
+          "name": "KTM 450 EXC",
+          "model": "x450exc",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "150 km/h",
+            "fuel": "10L"
+          }
+        },
+        {
+          "name": "Yamaha T-Max DX",
+          "model": "tmaxdx",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "160 km/h",
+            "fuel": "18L"
+          }
+        },
+        {
+          "name": "Yamaha R1M",
+          "model": "r1m",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "300 km/h",
+            "fuel": "20L"
+          }
+        },
+        {
+          "name": "Mazda RX-7",
+          "model": "rx7",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "250 km/h",
+            "fuel": "60L"
+          }
+        },
+        {
+          "name": "Lexus LC500 LB",
+          "model": "lc500lb",
+          "price": 1000,
+          "content": {
+            "maxSpeed": "300 km/h",
+            "fuel": "80L"
+          }
+        }
+    ],
+
+    "cases": {
+        "ruby": {
+            "price": 5500,
+            "content": [
+                { "description": "M4 Militaire", "tier": 4, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035984217919725589/militarm4.png", "args": {
+                    "type": "weapon", "reward": "militarm4"
+                }},
+                { "description": "Pompe futuriste", "tier": 4, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035984364674228324/shotgunk.png", "args": {
+                    "type": "weapon", "reward": "shotgunk"
+                }},
+                { "description": "Petite Scar", "tier": 4, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970583143383150/scarsc.png", "args": {
+                    "type": "weapon", "reward": "scarsc"
+                }},
+                { "description": "3 000 Coins", "tier": 3, "img": "Coins", "args": {
+                    "type": "coins", "reward": "3000"
+                }},
+                { "description": "2 500 Coins", "tier": 3, "img": "Coins", "args": {
+                    "type": "coins", "reward": "2500"
+                }} ,
+                { "description": "Ferrari La Ferrari", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939944713179237/26.laferrari-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodlaferrari"
+                }},
+                { "description": "Yamaha Tracer", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939988178743366/29.tracer-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "xt700"
+                }},
+                { "description": "R1", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939989390897172/32.r1m-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "20r1"
+                }},
+                { "description": "Cargobob", "tier": 3, "img": "cargobob2", "args": {
+                    "type": "helico", "reward": "cargobob2"
+                }},
+                { "description": "AUDI E TRON", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939831026565120/18.etrongt-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodetrongt"
+                }},
+                { "description": "Porche 918", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939946978103368/10.porsche918-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodporsche918"
+                }},
+                { "description": "Range Rover SVR", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939946109870080/8.svrsport-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodrover"
+                }},
+                { "description": "BMW M5C", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939987784482856/17.m5cs-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodm5cs"
+                }},
+                { "description": "4x4 RAM", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939987390210150/16.ramtrx-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodramtrx"
+                }},
+                { "description": "Rolls Royce Fantome", "tier": 1, "img": "ayxz", "args": {
+                    "type": "vehicule", "reward": "ayxz"
+                }}
+            ]
+        },
+
+        "diamand": {
+            "price": 2500,
+            "content": [
+                { "description": "Ak 74u", "tier": 4, "img": "weapon_compactrifle", "args": {
+                    "type": "weapon", "reward": "weapon_compactrifle"
+                }},
+                { "description": "Thompson", "tier": 4, "img": "weapon_gusenberg", "args": {
+                    "type": "weapon", "reward": "weapon_gusenberg"
+                }},
+                { "description": "AK47 RUST", "tier": 4, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1036017610254471329/hell.png", "args": {
+                    "type": "weapon", "reward": "hell"
+                }},
+                { "description": "1 300 Coins", "tier": 3, "img": "Coins", "args": {
+                    "type": "coins", "reward": "1300"
+                }},
+                { "description": "2 000 Coins", "tier": 3, "img": "Coins", "args": {
+                    "type": "coins", "reward": "2000"
+                }},
+                { "description": "C63 AMG", "tier": 2, "img": "bmwm4", "args": {
+                    "type": "vehicule", "reward": "rmodc63amg"
+                }},
+                { "description": "GOLF 7R", "tier": 3, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939942506958949/11.golfmk7-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodmk7"
+                }},
+                { "description": "Mercedes classe S", "tier": 1, "img": "s65f", "args": {
+                    "type": "vehicule", "reward": "s65f"
+                }},
+                { "description": "Aston Martin DB11", "tier": 1, "img": "rmodmartin", "args": {
+                    "type": "vehicule", "reward": "rmodmartin"
+                }},
+                { "description": "Mercedes C63Amg", "tier": 1, "img": "c63", "args": {
+                    "type": "vehicule", "reward": "c63"
+                }},
+                { "description": "Lamborghini Murciélago", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939912542851213/5.lp670-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodlp670"
+                }},
+                { "description": "Porsche Macan", "tier": 2, "img": "pm19", "args": {
+                    "type": "vehicule", "reward": "pm19"
+                }},
+                { "description": "Audi RSQ8", "tier": 1, "img": "q8prior", "args": {
+                    "type": "vehicule", "reward": "q8prior"
+                }},
+                { "description": "Porche 911 GTRSR", "tier": 3, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939831957700659/20.911gtrsr-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmod911gtrsr"
+                }},
+                { "description": "JESKO", "tier": 3, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939911158738974/23.jesko-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodjesko"
+                }}
+            ]
+        },  
+
+        "gold": {
+            "price": 1000,
+            "content": [
+                { "description": "TEC 9", "tier": 4, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970582572969995/tec9m.png", "args": {
+                    "type": "weapon", "reward": "tec9m"
+                }},
+                { "description": "m19", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035972374329315401/m19.png", "args": {
+                    "type": "weapon", "reward": "m19"
+                }},
+                { "description": "Revolver western", "tier": 3, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1036019509628252300/revolverultra.png", "args": {
+                    "type": "weapon", "reward": "revolverultra"
+                }},
+                { "description": "1 000 Coins", "tier": 3, "img": "Coins", "args": {
+                    "type": "coins", "reward": "1000"
+                }},
+                { "description": "500 Coins", "tier": 2, "img": "Coins", "args": {
+                    "type": "coins", "reward": "500"
+                }},
+                { "description": "Nissan 240SX", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939913016815648/6.240sx-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmod240sx"
+                }},
+                { "description": "tmaxdx", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939988883390504/31.tmaxdx-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "tmaxdx"
+                }},
+                { "description": "KTM 450 SXF", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939988518477885/30.450exc-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "06sx2t"
+                }},
+                { "description": "Porche 911", "tier": 3, "img": "topcar911", "args": {
+                    "type": "vehicule", "reward": "topcar911"
+                }},
+                { "description": "R1", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939989390897172/32.r1m-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "r1m"
+                }},
+                { "description": "Mazda RX-7", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939985867681902/33.rx7-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodrx7"
+                }},
+                { "description": "lamborghini LP750", "tier": 3, "img": "lb750sv", "args": {
+                    "type": "vehicule", "reward": "lb750sv"
+                }},
+                { "description": "Yamaha Tracer", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939988178743366/29.tracer-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "xt700"
+                }},
+                { "description": "Mercedes GLE", "tier": 1, "img": "gle450", "args": {
+                    "type": "vehicule", "reward": "gle450"
+                }}
+            ]
+        },
+
+        "silver": {
+            "price": 500,
+            "content": [
+                { "description": "penis", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970561077166171/penis.png", "args": {
+                    "type": "weapon", "reward": "penis"
+                }},
+                { "description": "Marteau doré", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035970561525948516/hammer.png", "args": {
+                    "type": "weapon", "reward": "weapon_specialhammer"
+                }},
+                { "description": "Mousquet", "tier": 4, "img": "weapon_musket", "args": {
+                    "type": "weapon", "reward": "weapon_musket"
+                }},
+                { "description": "1 000 Coins", "tier": 4, "img": "Coins", "args": {
+                    "type": "coins", "reward": "1000"
+                }},
+                { "description": "250 Coins", "tier": 2, "img": "Coins", "args": {
+                    "type": "coins", "reward": "250"
+                }},
+                { "description": "NISSAN GTR 50", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939910743506944/22.gtr50-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodgtr50"
+                }},
+                { "description": "Mercedes G65", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939910273732628/21.g65amg-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodg65"
+                }},
+                { "description": "BMX CUSTOM", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1036023388734492702/Screenshot_3-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "bimx"
+                }},
+                { "description": "HONDA 450CRF", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1036026142882287657/Sans_titre_2.png", "args": {
+                    "type": "vehicule", "reward": "crf450rw"
+                }},
+                { "description": "Porche panamera 2022", "tier": 3, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1036025543000338462/14.panamera-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodpanamera"
+                }},
+                { "description": "Lamborghini Essenza SCV12", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1036028191355183115/Sans_titre_3.png", "args": {
+                    "type": "vehicule", "reward": "rmodessenza"
+                }}
+            ]
+        },
+
+        "monthly": {
+            "price": 2500,
+            "content": [
+                { "description": "ak47 Citrouille", "tier": 4, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035939575719268443/pumpkinrifle.png", "args": {
+                    "type": "weapon", "reward": "pumpkinrifle"
+                }},
+                { "description": "audi etron", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939831026565120/18.etrongt-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodetrongt"
+                }},
+                { "description": "ak47 araignée", "tier": 4, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035939576340021248/akspider.png", "args": {
+                    "type": "weapon", "reward": "akspider"
+                }},
+                { "description": "Tronçonneuse", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035939576881090700/chainsaw.png", "args": {
+                    "type": "weapon", "reward": "chainsaw"
+                }},
+                { "description": "alien deagle", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035939577371820122/desert.png", "args": {
+                    "type": "weapon", "reward": "desert"
+                }},
+                { "description": "Walker pistol", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939186051653785/1035939577774489681/revovamp.png", "args": {
+                    "type": "weapon", "reward": "revovamp"
+                }},
+                { "description": "merco amgone", "tier": 3, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939945140985866/27.amgone-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodamgone"
+                }},
+                { "description": "AUDI R8S ", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939946529296485/9.r8widebody-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodr8alpil"
+                }},
+                { "description": "Nissan 240sx ", "tier": 2, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939913016815648/6.240sx-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmod240sx"
+                }},
+                { "description": "BMW I8 ", "tier": 1, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1036258604627525723/Screenshot_1-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmoddarki8"
+                }},
+                { "description": "BMW M8C 2022 ", "tier": 3, "img": "https://cdn.discordapp.com/attachments/1035939013351182438/1035939986643632280/13.m8competition-removebg-preview.png", "args": {
+                    "type": "vehicule", "reward": "rmodbmwm8"
+                }}
+            ]
+        }
+    }
+}

@@ -1,0 +1,71 @@
+html,
+body,
+#app {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	// background: #010101;
+	// background: url("https://cdn.discordapp.com/attachments/1009466792135110697/1012439547629535373/unknown.png");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+@font-face {
+	font-family: "Korolev";
+	src: url("http://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.eot"); /* IE9*/
+	src: url("http://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */ url("http://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.woff2") format("woff2"),
+		/* chrome firefox */ url("http://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.woff") format("woff"),
+		/* chrome firefox */ url("http://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.ttf") format("truetype"),
+		/* chrome firefox opera Safari, Android, iOS 4.2+*/
+			url("http://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.svg#Korolev") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+	font-family: "Gilroy-Bold";
+	src: url("./fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("./fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Gilroy-Medium";
+	src: url("./fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Akrobat";
+	src: url("fonts/Akrobat-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Akrobat-Black";
+	src: url("fonts/Akrobat-Black.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Circular";
+	src: url("fonts/Circular-Bold.woff2") format("woff2"), url("fonts/Circular-Bold.woff") format("woff"),
+		url("fonts/Circular-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Circular";
+	src: url("fonts/Circular-Book.woff2") format("woff2"), url("fonts/Circular-Book.woff") format("woff"),
+		url("fonts/Circular-Book.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}

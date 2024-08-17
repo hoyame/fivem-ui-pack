@@ -1,0 +1,312 @@
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-align {
+	align-items: center;
+	justify-content: center;
+}
+
+@keyframes img-store {
+	0% {
+		margin-top: -10px;
+	}
+
+	50% {
+		margin-top: 10px;
+	}
+
+	100% {
+		margin-top: -10px;
+	}
+}
+
+.anim-loop {
+	// animation: img-store 12s infinite;
+	// transition-duration: 300s;
+}
+
+#store {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: calc(100% - 200px);
+	width: calc(100% - 380px);
+	transform: scale(1.1);
+
+	z-index: 99;
+	padding: 85px 190px;
+	background: linear-gradient(0deg, rgba(29, 30, 67, 0.72), rgba(29, 30, 67, 0.72)),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74));
+
+	.header {
+		height: 50px;
+		margin-bottom: 50px;
+		p {
+			font-family: "Oswald";
+			font-style: normal;
+			font-weight: 500;
+			font-size: 35px;
+			color: #ffffff;
+		}
+
+		.solde {
+			display: flex;
+			flex-direction: column;
+			margin-right: 30px;
+
+			span {
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 15px;
+				color: rgba(255, 255, 255, 0.4);
+				margin-bottom: -5px;
+			}
+
+			p {
+				font-size: 25px;
+			}
+		}
+
+		.button {
+			border: 2px solid rgba(255, 255, 255, 0.705);
+			padding: 17.5px 40px;
+			color: #fff;
+			border-radius: 10px;
+			font-family: "Oswald";
+			transition-duration: 300ms;
+
+			margin: 0 10px;
+
+			&:hover {
+				background-color: #fff;
+				color: #000;
+				cursor: pointer;
+			}
+			// background: #FFFFFF;
+		}
+	}
+
+	.content {
+		display: flex;
+		height: 70%;
+		width: 100%;
+
+		.vip {
+			display: flex;
+			flex-direction: column;
+
+			height: 550px;
+			width: 260px;
+			border-radius: 10px;
+			padding: 40px 45px;
+
+			font-family: "Oswald";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 35px;
+			color: #ffffff;
+
+			background: linear-gradient(144.41deg, rgba(220, 199, 57, 0.36) -5.6%, rgba(220, 199, 57, 0) 60.28%);
+			border: 2px solid #dcc739;
+
+			.content {
+				display: block;
+				.elem {
+					display: flex;
+					align-items: center;
+					color: rgba(255, 255, 255, 0.85);
+					margin-bottom: 14px;
+					font-weight: 300;
+				}
+			}
+
+			&:hover {
+				cursor: pointer;
+				transition-duration: 500ms;
+				background-color: #f2bc2b;
+				box-shadow: #f2bc2b 0px 5px 15px;
+			}
+		}
+
+		.groupe-1 {
+			display: flex;
+			flex-direction: column;
+			margin-right: 35px;
+
+			.vehicles {
+				height: 300px;
+				width: 610px;
+
+				margin-right: 30px;
+				border: 2px solid #6c3bae;
+				border-radius: 10px;
+				background: linear-gradient(132.63deg, rgba(144, 61, 255, 0.19) -5.95%, rgba(144, 61, 255, 0) 50.34%);
+				padding: 30px 35px;
+
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 40px;
+				color: #ffffff;
+
+				p {
+					margin-bottom: -12.5px;
+				}
+
+				&:hover {
+					cursor: pointer;
+					transition-duration: 500ms;
+					background-color: #6c3bae;
+					box-shadow: #6c3bae 0px 5px 15px;
+				}
+			}
+
+			.container {
+				display: flex;
+				height: 82.5px;
+				width: 380px;
+				padding: 40px;
+				padding-right: 0;
+
+				margin-bottom: 30px;
+				border: 2px solid #a93656;
+				border-radius: 10px;
+				background: linear-gradient(127.39deg, rgba(169, 54, 86, 0.31) 7.23%, rgba(169, 54, 86, 0) 71.66%);
+
+				&:hover {
+					cursor: pointer;
+					transition-duration: 500ms;
+					background-color: #a93656;
+					box-shadow: #a93656 0px 5px 15px;
+				}
+			}
+
+			.objets {
+				display: flex;
+				height: 82.5px;
+				width: 380px;
+				padding: 40px;
+
+				margin-bottom: 30px;
+				border: 2px solid #3ba489;
+				border-radius: 10px;
+				background: linear-gradient(131.09deg, rgba(59, 164, 137, 0.39) 13.29%, rgba(59, 164, 137, 0) 73.29%);
+
+				&:hover {
+					cursor: pointer;
+					transition-duration: 500ms;
+					background-color: #3ba489;
+					box-shadow: #3ba489 0px 5px 15px;
+				}
+			}
+
+			.box-text {
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 33px;
+				color: #ffffff;
+
+				p {
+					margin-bottom: -12.5px;
+				}
+			}
+
+			.starterpack {
+				display: flex;
+				height: 202.5px;
+				width: 380px;
+				padding: 20px 40px;
+				margin-right: 35px;
+				margin-bottom: 30px;
+				border: 2px solid #607f48;
+				border-radius: 10px;
+				background: linear-gradient(145.44deg, rgba(96, 127, 72, 0.51) 11.69%, rgba(96, 127, 72, 0) 79.6%);
+
+				&:hover {
+					cursor: pointer;
+					transition-duration: 500ms;
+					background-color: #607f48;
+					box-shadow: #607f48 0px 5px 15px;
+				}
+
+				.mini-button {
+					border: 2px solid #80b852;
+					padding: 5px 12.5px;
+					color: #fff;
+					border-radius: 50px;
+					margin-right: 7.5px;
+					font-family: "Oswald";
+					font-size: 12px;
+					transition-duration: 300ms;
+					width: 43px;
+					text-align: center;
+				}
+			}
+
+			.bagpack {
+				display: flex;
+				height: 202.5px;
+				width: 380px;
+				padding: 20px 40px;
+				padding-right: 0;
+				margin-right: 35px;
+				background: linear-gradient(133.65deg, rgba(242, 188, 43, 0.37) 9.54%, rgba(242, 188, 43, 0) 74.41%);
+				margin-bottom: 30px;
+				border: 2px solid #f2bc2b;
+				border-radius: 10px;
+
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 33px;
+				color: #ffffff;
+
+				&:hover {
+					cursor: pointer;
+					transition-duration: 500ms;
+					background-color: #f2bc2b;
+					box-shadow: #f2bc2b 0px 5px 15px;
+				}
+			}
+
+			.cash {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 202.5px;
+				width: 175px;
+				padding: 20px 0;
+				padding-right: 0;
+				background: linear-gradient(154.83deg, rgba(58, 114, 204, 0.29) 0.16%, rgba(58, 114, 204, 0) 62.05%);
+				border: 2px solid #3a72cc;
+				margin-bottom: 30px;
+				border-radius: 10px;
+
+				font-family: "Oswald";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 33px;
+				color: #ffffff;
+
+				&:hover {
+					cursor: pointer;
+					transition-duration: 500ms;
+					background-color: #3a72cc;
+					box-shadow: #3a72cc 0px 5px 15px;
+				}
+			}
+		}
+
+		.vip {
+		}
+	}
+}

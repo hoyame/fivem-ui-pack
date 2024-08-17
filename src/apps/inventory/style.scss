@@ -1,0 +1,109 @@
+#inventory {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: calc(100% - 140px);
+	width: calc(100% - 140px);
+	font-family: "Oswald";
+	padding: 50px 70px 90px 70px;
+	color: #fff;
+	background: radial-gradient(60.35% 85.46% at 51.28% 5.42%, rgba(5, 240, 255, 0.17) 0%, rgba(0, 240, 255, 0) 100%), #161616e7;
+
+	.header {
+		display: flex;
+		height: 40px;
+		align-items: center;
+
+		.button {
+			border: 2px solid rgba(255, 255, 255, 0.705);
+			padding: 12.5px 30px;
+			color: #fff;
+			border-radius: 10px;
+			font-family: "Oswald";
+			transition-duration: 300ms;
+
+			margin: 0 10px;
+
+			&:hover {
+				background-color: #fff;
+				color: #000;
+				cursor: pointer;
+			}
+			// background: #FFFFFF;
+		}
+	}
+
+	.inventory {
+		height: calc(100% - 50px);
+		width: calc(50% - 50px);
+		margin-right: 2.5%;
+		padding: 25px;
+	}
+
+	.player {
+		height: 100%;
+		width: 27.5%;
+		padding-top: 50px;
+	}
+
+	.item {
+		margin-right: 10px;
+
+		.content {
+		}
+
+		svg {
+			stroke: #fff;
+			stroke-opacity: 0.2;
+		}
+
+		&:hover {
+			cursor: pointer;
+
+			svg {
+				transition-duration: 300ms;
+				stroke-opacity: 0.5;
+			}
+		}
+	}
+
+	.options-box {
+		position: absolute;
+		height: 285px;
+		width: 400px;
+		margin-top: -17.5px;
+		margin-left: 97.5px;
+		border-radius: 5px;
+
+		background-color: rgba(0, 0, 0, 0.9);
+
+		.cross {
+			fill: #fff;
+
+			&:hover {
+				opacity: 0.8;
+				cursor: pointer;
+			}
+		}
+
+		.button {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: calc(100% / 3);
+
+			svg {
+				fill: #fff;
+			}
+
+			&:hover {
+				transition-duration: 300ms;
+				cursor: pointer;
+				background-color: rgba(117, 117, 117, 0.158);
+			}
+		}
+	}
+}

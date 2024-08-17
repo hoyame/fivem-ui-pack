@@ -1,0 +1,43 @@
+#daily {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 100%;
+	width: calc(100% - 100px);
+	padding: 150px 50px;
+	font-family: "Oswald";
+	z-index: 99;
+
+	background: linear-gradient(117.18deg, rgba(0, 74, 48, 0.63) 2.27%, rgba(0, 74, 48, 0) 66.65%),
+		linear-gradient(0deg, rgba(84, 57, 140, 0.47), rgba(84, 57, 140, 0.47)),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77));
+
+	.title {
+		font-family: "Oswald";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 146.2%;
+		letter-spacing: 0.065em;
+		color: #ffffff;
+		margin-top: 60px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	.upp {
+		padding: 2px 8px;
+		border-radius: 7.5px;
+		margin-bottom: 30px;
+		color: #fff;
+		background-color: #000;
+	}
+
+	.text {
+		width: 60%;
+		text-align: center;
+		color: #fff;
+		margin-top: 30px;
+	}
+}

@@ -1,0 +1,25 @@
+.dark {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+}
+
+.light {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+}
+
+.help {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: "Gilroy-Bold";
+	color: #fff;
+
+	height: 50px;
+	width: 14.1%;
+
+	font-size: 13px;
+	background-color: red;
+}

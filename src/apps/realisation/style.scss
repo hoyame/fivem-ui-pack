@@ -1,0 +1,67 @@
+#realisations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: calc(100% + 75px);
+	width: 100%;
+	padding: 0px 0px;
+	margin-top: -75px;
+	font-family: "Oswald";
+	z-index: 99;
+
+	background: linear-gradient(240.18deg, rgba(0, 74, 48, 0.63) 2.27%, rgba(0, 74, 48, 0) 66.65%),
+		linear-gradient(0deg, rgba(84, 57, 140, 0.47), rgba(84, 57, 140, 0.47)),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77));
+
+	.list {
+		height: 610px;
+		width: 655px;
+		margin-right: 80px;
+		padding-top: 20px;
+		padding-left: 45px;
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			width: 0;
+		}
+	}
+
+	.sublist {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 135px;
+		height: 430px;
+		width: 300px;
+	}
+
+	.component {
+		display: flex;
+		width: 90%;
+
+		.title {
+			font-family: "Oswald";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 35px;
+			line-height: 131.7%;
+			text-align: center;
+			letter-spacing: 0.065em;
+			margin-bottom: 7.5px;
+			color: #ffffff;
+		}
+
+		.subtitle {
+			font-family: "Oswald";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 109.7%;
+			letter-spacing: 0.195em;
+			margin-left: 7.5px;
+			color: rgba(255, 255, 255, 0.35);
+		}
+	}
+}
